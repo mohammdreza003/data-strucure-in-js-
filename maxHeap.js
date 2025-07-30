@@ -114,13 +114,3 @@ class maxHeap {
     return maxValue;
   }
 }
-const heap = new maxHeap(10);
-heap.insert(5);
-heap.insert(10);
-heap.insert(3);
-heap.insert(20);
-heap.insert(7);
-
-console.log("deleteMax:", heap.deleteMax()); // باید 20 باشد
-console.log("deleteMax:", heap.deleteMax()); // باید 10 باشد
-console.log("deleteMax:", heap.deleteMax()); // باید 7 باشد
